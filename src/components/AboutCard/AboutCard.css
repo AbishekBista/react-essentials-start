@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.about-card {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 30rem;
+  border-radius: 6px;
+  background: linear-gradient(#254041, #203031);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.about-card h2 {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  color: #e5d9f1;
+  font-weight: bold;
+  text-align: start;
+}
+.about-card p {
+  margin: 0.5rem 0;
+}
+
+.about-card a {
+  text-decoration: none;
+  color: #cae7d3;
+}
